@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background-color: #333333;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  opacity: 0.75;
+  align-items: center;
+}
+.active {
+  color: white;
+  opacity: 0.5;
+}
+.active:hover {
+  opacity: 1;
+}
+.btn {
+  background-color: #1da4ba;
+  color: white;
+  box-shadow: 2px 2px black;
+  width: 75px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
